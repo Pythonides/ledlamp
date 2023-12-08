@@ -82,6 +82,8 @@ dependencies {
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     // https://mvnrepository.com/artifact/com.githang/status-bar-compat
     implementation 'com.githang:status-bar-compat:0.7'
+    // https://mvnrepository.com/artifact/com.sahooz.library/countrypicker
+    implementation 'com.sahooz.library:countrypicker:2.0'
 
 
 }

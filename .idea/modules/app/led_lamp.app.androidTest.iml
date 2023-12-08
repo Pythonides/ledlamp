@@ -96,6 +96,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:5.0.0-rc01@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.example.chartviewlibrary:chartviewlibrary:0.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.githang:status-bar-compat:0.7@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="led_lamp.app.main" />
 </module>
