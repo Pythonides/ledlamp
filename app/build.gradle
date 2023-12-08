@@ -84,6 +84,8 @@ dependencies {
     implementation 'com.githang:status-bar-compat:0.7'
     // https://mvnrepository.com/artifact/com.sahooz.library/countrypicker
     implementation 'com.sahooz.library:countrypicker:2.0'
+    // https://mvnrepository.com/artifact/com.weigan/loopView
+    implementation 'com.weigan:loopView:0.2.2'
 
 
 }
