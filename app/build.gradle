@@ -86,6 +86,7 @@ dependencies {
     implementation 'com.sahooz.library:countrypicker:2.0'
     // https://mvnrepository.com/artifact/com.weigan/loopView
     implementation 'com.weigan:loopView:0.2.2'
-
+    // https://mvnrepository.com/artifact/com.squareup.picasso/picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
 }
