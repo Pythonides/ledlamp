@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.example.chartviewlibrary:chartviewlibrary:0.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/043d361dee62fcea9f19800183753d53/transformed/jetified-chartviewlibrary-0.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/043d361dee62fcea9f19800183753d53/transformed/jetified-chartviewlibrary-0.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/043d361dee62fcea9f19800183753d53/transformed/jetified-chartviewlibrary-0.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.example.chartviewlibrary/chartviewlibrary/0.0.1/7c31b2baab44b48231079a962071abeebb278cfb/chartviewlibrary-0.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.example.chartviewlibrary/chartviewlibrary/0.0.1/25973ff6dcd3116a85c3ca6d92d5f2030a4e2823/chartviewlibrary-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

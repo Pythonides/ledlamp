@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:slideswitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent">
+    <View android:id="@+id/viewTopLine" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_60">
+        <LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvAisleName" android:tag="viewColor1" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="@dimen/dp_20" android:text="CH1" android:layout_weight="0.3"/>
+                <com.home.view.custom.IndicatorSeekBar android:id="@+id/seekBarAisleBrightNess" android:tag="SeekBar1" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="@dimen/dp_35" android:max="255" android:progressDrawable="@drawable/seekbar_bringh_ch1_ch6" android:minHeight="@dimen/dp_35" android:thumb="@drawable/sliderthumb" android:layout_weight="2" android:splitTrack="false"/>
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvBrightness" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="@dimen/color_block_size" android:layout_marginRight="@dimen/dp_20" android:text="0" android:layout_weight="0.3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/viewBottomLine" android:background="#cdccd1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

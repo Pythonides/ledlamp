@@ -1,0 +1,625 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:1-116:12
+	package
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:194-215
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+	android:compileSdkVersionCodename
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:155-193
+	android:versionName
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:96-123
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+	android:compileSdkVersion
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:124-154
+	xmlns:android
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:70-95
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+	platformBuildVersionName
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:246-275
+	platformBuildVersionCode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:2:216-245
+uses-sdk
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:5-73
+	android:targetSdkVersion
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:3:15-41
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:4:5-89
+	android:required
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:4:64-87
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:4:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:5:5-94
+	android:maxSdkVersion
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:5:66-92
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:6:5-100
+	android:maxSdkVersion
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:6:72-98
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:9:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:10:22-75
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.VIBRATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:18:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:19:22-68
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:25:22-72
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:26:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:27:22-72
+application
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:5-115:19
+	android:requestLegacyExternalStorage
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:236-279
+	android:label
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:50-82
+	android:appComponentFactory
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:203-235
+	android:icon
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:83-119
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:18-49
+	android:usesCleartextTraffic
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:167-202
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:28:120-166
+activity#com.FirstActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:9-38:20
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:109-145
+	android:label
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:19-51
+	android:exported
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:85-108
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:146-207
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:29:52-84
+intent-filter#action:name:android.intent.action.MAIN+action:name:com.netease.push.action.client.MESSAGE+action:name:com.netease.push.action.client.METHOD+action:name:com.netease.push.action.client.NEWID+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:30:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:32:27-74
+action#com.netease.push.action.client.MESSAGE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:33:25-78
+action#com.netease.push.action.client.NEWID
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:34:25-76
+action#com.netease.push.action.client.METHOD
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:35:25-77
+category#android.intent.category.DEFAULT
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:36:17-75
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:36:27-73
+uses-library#org.apache.http.legacy
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:39:9-87
+	android:required
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:39:61-85
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:39:23-60
+service#com.home.service.BluetoothLeServiceSingle
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:40:9-123
+	android:enabled
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:40:75-97
+	android:exported
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:40:98-121
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:40:18-74
+activity#com.home.activity.other.HelpActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:41:9-134
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:41:71-132
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:41:19-70
+activity#com.forum.login.LogInActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:42:9-102
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:42:64-100
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:42:19-63
+activity#com.forum.login.RegisterActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:43:9-105
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:43:67-103
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:43:19-66
+activity#com.forum.login.RetrieveActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:44:9-68
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:44:19-66
+activity#com.home.activity.service.AddSceneActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:45:9-115
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:45:77-113
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:45:19-76
+activity#com.home.activity.service.SelectSceneActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:46:9-81
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:46:19-79
+activity#com.home.activity.other.AdvertActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:47:9-74
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:47:19-72
+activity#com.home.activity.main.MainActivity_BLE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:48:9-112
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:48:74-110
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:48:19-73
+activity#com.home.activity.main.MainActivity_LIKE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:49:9-113
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:49:75-111
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:49:19-74
+activity#com.home.activity.main.MainActivity_DMX02
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:50:9-114
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:50:76-112
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:50:19-75
+activity#com.home.activity.main.MainActivity_DMX03
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:51:9-114
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:51:76-112
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:51:19-75
+activity#com.me.UpdatePasswordActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:52:9-65
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:52:19-63
+activity#com.me.SettingActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:53:9-58
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:53:19-56
+activity#com.me.WebViewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:54:9-58
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:54:19-56
+activity#com.me.AboutusActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:55:9-95
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:55:57-93
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:55:19-56
+activity#com.me.AccountSecurityActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:56:9-103
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:56:65-101
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:56:19-64
+activity#com.me.PasswordActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:57:9-96
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:57:58-94
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:57:19-57
+activity#com.me.SetLanguageActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:58:9-62
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:58:19-60
+activity#com.forum.im.ui.ListViewChatActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:59:9-72
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:59:19-70
+activity#com.forum.im.ui.ImageViewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:60:9-69
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:60:19-67
+activity#com.home.activity.other.DeviceListActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:61:9-115
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:61:77-113
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:61:19-76
+activity#com.home.activity.other.MusicLibActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:62:9-113
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:62:75-111
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:62:19-74
+activity#com.home.activity.other.Dmx02MusicLibActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:63:9-118
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:63:80-116
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:63:19-79
+activity#com.home.activity.other.EditColorActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:64:9-114
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:64:76-112
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:64:19-75
+activity#com.home.activity.other.Dmx02EditColorActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:65:9-119
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:65:81-117
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:65:19-80
+activity#com.home.activity.other.MaterialLibraryActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:66:9-120
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:66:82-118
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:66:19-81
+activity#com.home.activity.set.DynamicColorActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:67:9-115
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:67:77-113
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:67:19-76
+activity#com.home.activity.set.RgbSortActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:68:9-110
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:68:72-108
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:68:19-71
+activity#com.home.activity.set.ChipSelectActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:69:9-113
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:69:75-111
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:69:19-74
+activity#com.home.activity.set.Dmx02ChipSelectActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:70:9-118
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:70:80-116
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:70:19-79
+activity#com.home.activity.set.CodeActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:71:9-107
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:71:69-105
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:71:19-68
+activity#com.home.activity.set.PairCodeActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:72:9-111
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:72:73-109
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:72:19-72
+activity#com.home.activity.set.VoiceCtlActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:73:9-111
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:73:73-109
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:73:19-72
+activity#com.home.activity.set.AuxiliaryActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:74:9-112
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:74:74-110
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:74:19-73
+activity#com.home.activity.set.OprationManualActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:75:9-117
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:75:79-115
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:75:19-78
+activity#com.home.activity.set.light.ChannelSetActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:76:9-119
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:76:81-117
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:76:19-80
+activity#com.home.activity.set.smart.OtherSettingActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:77:9-121
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:77:83-119
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:77:19-82
+activity#com.home.activity.set.smart.TimingQueryActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:78:9-83
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:78:19-81
+activity#com.home.activity.set.smart.CurrentQueryActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:79:9-84
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:79:19-82
+activity#com.home.activity.set.smart.ModeSelectActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:80:9-82
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:80:19-80
+activity#com.home.activity.set.smart.TimerSettingActivity_Smart
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:81:9-90
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:81:19-88
+activity#com.home.activity.like.music.LikeMusicActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:82:9-82
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:82:19-80
+activity#com.home.activity.like.timer.LikeTimerActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:83:9-82
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:83:19-80
+activity#com.home.activity.other.PrivacyPolicyActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:84:9-81
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:84:19-79
+activity#com.forum.adapter.ReviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:85:9-68
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:85:19-66
+activity#com.forum.ReplyActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:86:9-59
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:86:19-57
+activity#com.forum.ReleseCharacterActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:87:9-69
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:87:19-67
+activity#com.video.ReleseVideoActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:88:9-65
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:88:19-63
+activity#com.video.ReviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:89:9-60
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:89:19-58
+activity#com.common.pictureselector.PhotoActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:90:9-76
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:90:19-74
+activity#com.video.VideoReplyActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:91:9-126
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:91:63-124
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:91:19-62
+activity#com.video.VideoDetailActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:92:9-127
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:92:64-125
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:92:19-63
+activity#com.video.PlayVideoActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:93:9-181
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:93:124-179
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:93:62-123
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:93:19-61
+activity#com.home.activity.set.timer.TimeActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:94:9-113
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:94:75-111
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:94:19-74
+activity#com.home.activity.set.timer.ChioceTimeActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:95:9-119
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:95:81-117
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:95:19-80
+activity#com.home.activity.set.timer.DMX03ChioceTimeActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:96:9-124
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:96:86-122
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:96:19-85
+activity#com.home.activity.set.timer.ChioceTimeActivityLIKE
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:97:9-123
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:97:85-121
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:97:19-84
+activity#com.home.activity.set.light.TBQueryActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:98:9-116
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:98:78-114
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:98:19-77
+activity#com.home.activity.set.light.CodeActivity_WIFI
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:99:9-118
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:99:80-116
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:99:19-79
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:100:9-102:20
+	android:grantUriPermissions
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:100:143-177
+	android:authorities
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:100:100-142
+	android:exported
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:100:75-99
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:100:19-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:101:13-111
+	android:resource
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:101:75-109
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:101:24-74
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:103:9-120
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:103:79-118
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:103:19-78
+activity#com.luck.picture.lib.PictureSelectorCameraEmptyActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:104:9-180
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:104:139-178
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:104:19-67
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:104:68-138
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:105:9-79
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:105:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:106:9-178
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:106:80-114
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:106:115-176
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:106:19-79
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:107:9-87
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:107:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:108:9-114
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:108:19-64
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:108:65-112
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:109:9-128
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:109:19-64
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:109:65-126
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:110:9-81
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:110:19-79
+activity#com.ccr.achenglibrary.photopicker.activity.CCRPhotoPreviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:9-272
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:135-171
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:223-270
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:172-222
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:19-52
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:111:53-134
+activity#com.ccr.achenglibrary.photopicker.activity.CCRPhotoPickerActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:9-271
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:134-170
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:222-269
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:171-221
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:19-52
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:112:53-133
+activity#com.ccr.achenglibrary.photopicker.activity.CCRPhotoPickerPreviewActivity
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:9-278
+	android:screenOrientation
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:141-177
+	android:windowSoftInputMode
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:229-276
+	android:configChanges
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:178-228
+	android:theme
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:19-52
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:113:53-140
+provider#com.squareup.picasso.PicassoProvider
+ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:114:9-152
+	android:authorities
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:114:96-150
+	android:exported
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:114:71-95
+	android:name
+		ADDED from /home/stealthninja/projects/java/lightlamp/app/src/main/AndroidManifest.xml:114:19-70

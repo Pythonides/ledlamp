@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/led_lamp.iml" filepath="$PROJECT_DIR$/.idea/modules/led_lamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/led_lamp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/led_lamp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/led_lamp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/led_lamp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/led_lamp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/led_lamp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/led_lamp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/led_lamp.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
