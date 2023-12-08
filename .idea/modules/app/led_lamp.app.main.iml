@@ -58,6 +58,7 @@
     <orderEntry type="library" name="Gradle: com.alibaba.fastjson2:fastjson2:2.0.43" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:5.0.0-rc01" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:5.0.0-rc01" level="project" />
+    <orderEntry type="library" name="Gradle: com.nostra13.universalimageloader:universal-image-loader:1.9.5" level="project" />
     <orderEntry type="library" name="Gradle: cn.jzvd:jiaozivideoplayer:7.7.2.3300@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.jakewharton:butterknife:10.2.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.jakewharton:butterknife-runtime:10.2.3@aar" level="project" />

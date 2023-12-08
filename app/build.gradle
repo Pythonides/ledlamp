@@ -80,5 +80,8 @@ dependencies {
     implementation 'com.example.chartviewlibrary:chartviewlibrary:0.0.1'
     // https://mvnrepository.com/artifact/com.nostra13.universalimageloader/universal-image-loader
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    // https://mvnrepository.com/artifact/com.githang/status-bar-compat
+    implementation 'com.githang:status-bar-compat:0.7'
+
 
 }
