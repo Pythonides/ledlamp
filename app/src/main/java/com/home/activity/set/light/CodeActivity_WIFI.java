@@ -1,12 +1,16 @@
 package com.home.activity.set.light;
 
+
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import androidx.core.media.session.PlaybackStateCompat;
+import androidx.media.session.*;
+
+import android.support.v4.media.session.PlaybackStateCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,7 +23,6 @@ import com.home.activity.main.MainActivity_BLE;
 import com.home.base.LedBleActivity;
 import com.home.constant.Constant;
 import com.ledlamp.R;
-import com.weigan.loopview.MessageHandler;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
@@ -33,9 +36,10 @@ public class CodeActivity_WIFI extends LedBleActivity implements View.OnClickLis
     TextView tvcodewifi;
     int bannerPix = 0;
     private final int MSG_START_CONNECT = 1000;
-    private final int CHECK_NOW = MessageHandler.WHAT_SMOOTH_SCROLL;
+    private final int CHECK_NOW = 2000;
     private boolean canSend = true;
-    private Handler conectHandler = new Handler() { // from class: com.home.activity.set.light.CodeActivity_WIFI.2
+    private final Handler conectHandler = new Handler() { // from class: com.home.activity.set.light.CodeActivity_WIFI.2
+        @SuppressLint("HandlerLeak")
         @Override // android.os.Handler
         public void handleMessage(Message message) {
             int i = message.what;
@@ -44,7 +48,7 @@ public class CodeActivity_WIFI extends LedBleActivity implements View.OnClickLis
                     return;
                 }
                 Context applicationContext = CodeActivity_WIFI.this.getApplicationContext();
-                Toast.makeText(applicationContext, "" + CodeActivity_WIFI.this.getString(R.string.currentquery), 0).show();
+                Toast.makeText(applicationContext, "" + CodeActivity_WIFI.this.getString(R.string.currentquery), Toast.LENGTH_SHORT).show();
             } else if (CodeActivity_WIFI.this.dataList != null) {
                 if (2 == CodeActivity_WIFI.this.dataList.size()) {
                     TextView textView = CodeActivity_WIFI.this.tvcodewifi;
@@ -100,6 +104,7 @@ public class CodeActivity_WIFI extends LedBleActivity implements View.OnClickLis
                 finish();
                 return;
             case R.id.btn_pix_set_wifi /* 2131296404 */:
+            case R.id.tv_pix_num_wifi /* 2131297815 */:
                 setPixValue();
                 return;
             case R.id.button_chipselect_wifi /* 2131296436 */:
@@ -114,7 +119,7 @@ public class CodeActivity_WIFI extends LedBleActivity implements View.OnClickLis
                 new Thread(new Runnable() { // from class: com.home.activity.set.light.CodeActivity_WIFI.1
                     @Override // java.lang.Runnable
                     public void run() {
-                        CodeActivity_WIFI.this.conectHandler.sendEmptyMessage(MessageHandler.WHAT_SMOOTH_SCROLL);
+                        CodeActivity_WIFI.this.conectHandler.sendEmptyMessage(2000);
                         if (MainActivity_BLE.getMainActivity() != null) {
                             MainActivity_BLE.getMainActivity().setlight(2);
                             if (CodeActivity_WIFI.this.canSend) {
@@ -126,33 +131,29 @@ public class CodeActivity_WIFI extends LedBleActivity implements View.OnClickLis
                     }
                 }).start();
                 return;
-            case R.id.tv_pix_num_wifi /* 2131297815 */:
-                setPixValue();
-                return;
             default:
-                return;
         }
     }
 
     private void setPixValue() {
         final EditText editText = new EditText(this);
         editText.setHint("0~1024");
-        new AlertDialog.Builder(this).setTitle(R.string.btn_pix_number).setIcon(17301659).setView(editText).setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() { // from class: com.home.activity.set.light.CodeActivity_WIFI.4
+        new AlertDialog.Builder(this).setTitle(R.string.btn_pix_number).setIcon(R.drawable.wifi_hotspot).setView(editText).setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() { // from class: com.home.activity.set.light.CodeActivity_WIFI.4
             @Override // android.content.DialogInterface.OnClickListener
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
                 if (editText.getText().toString().equals("")) {
-                    Toast.makeText(CodeActivity_WIFI.this.getApplicationContext(), (int) R.string.valuetip, 0).show();
+                    Toast.makeText(CodeActivity_WIFI.this.getApplicationContext(), (int) R.string.valuetip, Toast.LENGTH_SHORT).show();
                     return;
                 }
                 String obj = editText.getText().toString();
                 if (!StringUtils.isNumeric(obj)) {
-                    Toast.makeText(CodeActivity_WIFI.this.getApplicationContext(), (int) R.string.key_in_numbers, 0).show();
+                    Toast.makeText(CodeActivity_WIFI.this.getApplicationContext(), (int) R.string.key_in_numbers, Toast.LENGTH_SHORT).show();
                     return;
                 }
                 long parseLong = Long.parseLong(obj.trim());
                 if (parseLong <= 0 || parseLong >= PlaybackStateCompat.ACTION_PLAY_FROM_MEDIA_ID) {
-                    Toast.makeText(CodeActivity_WIFI.this, (int) R.string.please_enter_again, 0).show();
+                    Toast.makeText(CodeActivity_WIFI.this, (int) R.string.please_enter_again, Toast.LENGTH_SHORT).show();
                     return;
                 }
                 String valueOf = String.valueOf(parseLong);
