@@ -17,6 +17,7 @@ allprojects {
         maven { url 'https://maven.scijava.org/content/repositories/public/' }
         maven { url 'https://jcenter.bintray.com/' }
         maven { url 'https://maven.icm.edu.pl/artifactory/repo/' }
+        maven { url 'https://jitpack.io' }
 
     }
 }

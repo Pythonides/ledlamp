@@ -52,8 +52,8 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
     // https://mvnrepository.com/artifact/com.squareup.okio/okio
     implementation 'com.squareup.okio:okio:3.6.0'
-    // https://mvnrepository.com/artifact/org.apache.commons/org.apache.commons.logging
-    compileOnly 'org.apache.commons:org.apache.commons.logging:1.1.1'
+    implementation 'androidx.core:core:1.8.0'
+    implementation 'androidx.media:media:1.6.0'
     // https://mvnrepository.com/artifact/org.apache.httpcomponents.core5/httpcore5
     implementation 'org.apache.httpcomponents.core5:httpcore5:5.2.4'
     // https://mvnrepository.com/artifact/org.greenrobot/eventbus
@@ -84,11 +84,11 @@ dependencies {
     implementation 'com.githang:status-bar-compat:0.7'
     // https://mvnrepository.com/artifact/com.sahooz.library/countrypicker
     implementation 'com.sahooz.library:countrypicker:2.0'
-    // https://mvnrepository.com/artifact/com.weigan/loopView
-    implementation 'com.weigan:loopView:0.2.2'
+    // https://github.com/weidongjian/androidWheelView/tree/master
+    implementation 'com.github.weidongjian:androidWheelView:1.0.0'
     // https://mvnrepository.com/artifact/com.squareup.picasso/picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
     // https://mvnrepository.com/artifact/com.google.android.material/material
     runtimeOnly 'com.google.android.material:material:1.10.0'
-
+    implementation 'com.pes.materialcolorpicker:library:1.2.5'
 }
